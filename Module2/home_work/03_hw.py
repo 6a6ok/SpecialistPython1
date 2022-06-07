@@ -18,7 +18,7 @@
 # 7 69.93 Rub.
 # 8 79.92 Rub.
 # 9 89.91 Rub.
-# 10 99.9 Rub.
+# 10 99.90 Rub.
 # 11 109.89 Rub.
 # 12 119.88 Rub.
 # 13 129.87 Rub.
@@ -28,6 +28,10 @@
 # 17 169.83 Rub.
 # 18 179.82 Rub.
 # 19 189.81 Rub.
-# 20 199.8 Rub.
+# 20 199.80 Rub.
 
 # TODO: your code here
+
+price = float(input("Price := "))
+for i in range(1, 21):
+    print("#{} {:.2f} Rub.".format(i, price*i))
