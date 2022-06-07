@@ -8,3 +8,12 @@
 # Например, 1 корова, 2 коровы, 5 коров, 125 коров.
 
 # TODO: your code here
+
+cow = int(input())
+
+if (cow == 1) or (cow > 20 and (cow % 10 == 1)):
+    print(cow, "корова")
+elif (2 <= cow <= 4) or (cow > 20 and (2 <= cow % 10 <= 4)):
+    print(cow, "коровы")
+else:
+    print(cow, "коров")
