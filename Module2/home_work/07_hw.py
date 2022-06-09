@@ -14,3 +14,10 @@
 #    #
 #    #
 ######
+
+a = int(input("a:= "))
+for row in range(1, a+1):
+    if (row == 1) or (row == a):
+        print("#"*a)
+    else:
+        print('#' + ' '*(row-2) + '#' + ' '*(a-row-1) + "#")
